@@ -19,7 +19,7 @@
 		{
 			src: '/hero-3.jpg',
 			title: 'Stadium world tour',
-			desc: 'From Nairobi to New York, the world’s biggest arenas unite for one historic run.',
+			desc: 'The world’s biggest arenas unite for one historic run.',
 			ctaHref: 'https://homebrandsitaalexandra.com/',
 			ctaLabel: 'Explore more'
 		}
