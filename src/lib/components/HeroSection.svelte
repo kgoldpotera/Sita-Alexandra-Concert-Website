@@ -194,18 +194,18 @@
 		}
 	}
 
-	/* Shade */
 	.shade {
 		position: absolute;
 		inset: 0;
 		background: linear-gradient(
 			90deg,
-			rgba(0, 0, 0, 0.86) 0%,
-			rgba(0, 0, 0, 0.55) 46%,
-			rgba(0, 0, 0, 0.2) 72%,
-			rgba(0, 0, 0, 0) 100%
+			rgba(10, 35, 80, 0.35) 0%,
+			/* deep blue tint on left */ rgba(25, 60, 120, 0.25) 40%,
+			/* soft bluish middle */ rgba(40, 80, 160, 0.15) 70%,
+			/* light blue fade */ rgba(255, 255, 255, 0) 100% /* clear end */
 		);
 		z-index: 1;
+		backdrop-filter: brightness(1.05);
 	}
 
 	/* Copy */
