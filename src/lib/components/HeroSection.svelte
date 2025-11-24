@@ -91,9 +91,14 @@
 			<div class="copy">
 				<h1 class="headline">{slide.title}</h1>
 				<p class="desc">{slide.desc}</p>
-				<a class="cta" href={slide.ctaHref} target="_blank" rel="noopener">
-					{slide.ctaLabel ?? 'Explore more'}
-				</a>
+				<div class="cta-group">
+					<a class="cta" href={slide.ctaHref} target="_blank" rel="noopener">
+						{slide.ctaLabel ?? 'Explore more'}
+					</a>
+					<a class="cta cta-secondary" href="/sponsorship">
+						Explore Partnerships
+					</a>
+				</div>
 			</div>
 		</article>
 	{/each}
@@ -248,6 +253,14 @@
 		font-size: clamp(15px, 3.9vw, 20px);
 	}
 
+	/* CTA Group */
+	.cta-group {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10px;
+		align-items: center;
+	}
+
 	/* CTA */
 	.cta {
 		display: inline-block;
@@ -266,6 +279,16 @@
 	.cta:hover {
 		opacity: 0.95;
 		transform: translateY(-1px);
+	}
+
+	.cta-secondary {
+		background: rgba(0, 0, 0, 0.4);
+		color: #fff;
+		border-color: rgba(255, 255, 255, 0.6);
+		backdrop-filter: blur(8px);
+	}
+	.cta-secondary:hover {
+		background: rgba(0, 0, 0, 0.5);
 	}
 
 	/* Arrows */
