@@ -11,7 +11,6 @@
 	/** Your logos */
 	export let logos: Array<{ src: string; alt?: string }> = [
 		{ src: '/logos/Lamptafm.png', alt: 'LamptaFM' },
-		{ src: '/logos/Tezlow.jpg', alt: 'Tezlow' }
 	];
 
 	/** Width cap for the section */

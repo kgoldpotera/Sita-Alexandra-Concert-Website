@@ -6,22 +6,22 @@
 			src: '/hero-1.jpg',
 			title: 'Welcome to the Championship StadiuM World Tour',
 			desc: 'Experience electrifying nights across the globe—massive stages, immersive visuals, and unforgettable crowd energy.',
-			ctaHref: 'https://homebrandsitaalexandra.com/',
-			ctaLabel: 'Explore more'
+			ctaHref: 'https://www.eventbrite.com/',
+			ctaLabel: 'Buy Tickets'	
 		},
 		{
 			src: '/hero-2.jpg',
 			title: 'The championship stadium concert tour',
 			desc: 'A city-to-city spectacle featuring headline performances, surprise guests, and stadium-scale sound.',
-			ctaHref: 'https://homebrandsitaalexandra.com/',
-			ctaLabel: 'Explore more'
+			ctaHref: 'https://www.eventbrite.com/',
+			ctaLabel: 'Buy Tickets'
 		},
 		{
 			src: '/hero-3.jpg',
 			title: 'Stadium world tour',
 			desc: 'The world’s biggest arenas unite for one historic run.',
-			ctaHref: 'https://homebrandsitaalexandra.com/',
-			ctaLabel: 'Explore more'
+			ctaHref: 'https://www.eventbrite.com/',
+			ctaLabel: 'Buy Tickets'
 		}
 	];
 
@@ -93,7 +93,7 @@
 				<p class="desc">{slide.desc}</p>
 				<div class="cta-group">
 					<a class="cta" href={slide.ctaHref} target="_blank" rel="noopener">
-						{slide.ctaLabel ?? 'Explore more'}
+						{slide.ctaLabel ?? 'Buy Tickets'}
 					</a>
 					<a class="cta cta-secondary" href="/sponsorship">
 						Explore Partnerships

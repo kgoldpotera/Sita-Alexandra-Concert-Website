@@ -3,17 +3,14 @@
 	import SocialIcon from './SocialIcon.svelte';
 
 	export let tourLinks: Record<string, string> = {
-		tezlow: '#',
 		instagram: '#',
 		threads: '#',
 		tiktok: '#',
 		twitter: '#',
-		pinterest: '#',
-		tumblr: '#'
+
 	};
 
 	export let artistLinks: Record<string, string> = {
-		tezlow: 'https://tezlow.com/SitaAlexandra',
 		instagram: 'https://instagram.com/sitaalexandraofficial',
 		threads: '#',
 		tiktok: 'https://tiktok.com/@sitaalexandra',
@@ -23,9 +20,7 @@
 	};
 
 	const order = [
-		'tezlow',
 		'instagram',
-		'threads',
 		'tiktok',
 		'twitter',
 		'pinterest',
