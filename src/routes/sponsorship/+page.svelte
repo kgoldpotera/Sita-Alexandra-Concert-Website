@@ -17,7 +17,9 @@
 		'/sponsor/WhatsApp Image 2025-11-21 at 3.59.16 PM.jpeg',
 		'/sponsor/WhatsApp Image 2025-11-21 at 3.59.39 PM.jpeg',
 		'/sponsor/WhatsApp Image 2025-11-21 at 4.01.01 PM.jpeg',
-		'/sponsor/WhatsApp Image 2025-11-21 at 4.01.39 PM.jpeg'
+		'/sponsor/WhatsApp Image 2025-11-21 at 4.01.39 PM.jpeg',
+		'/sponsor/WhatsApp Image 2025-11-21 at 4.03.48 PM.jpeg',
+		'/sponsor/WhatsApp Image 2025-11-21 at 4.04.57 PM.jpeg'
 	];
 
 	async function handleSubmit(e: Event) {
